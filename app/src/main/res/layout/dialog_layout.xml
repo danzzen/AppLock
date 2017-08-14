@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/radiogroup">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton"
+        android:text="@string/what_is_your_favourite_book"
+        android:layout_margin="10dp"
+        android:theme="@style/MyRadioButton"
+         />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2"
+        android:text="@string/who_is_your_favourite_actor"
+        android:layout_margin="10dp"
+        android:theme="@style/MyRadioButton"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3"
+        android:layout_margin="10dp"
+        android:text="@string/what_is_your_blood_group"
+        android:theme="@style/MyRadioButton"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4"
+        android:layout_margin="10dp"
+        android:text="@string/what_is_your_vehicle_no"
+        android:theme="@style/MyRadioButton"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton5"
+        android:text="@string/how_many_brothers_or_sisters_you_have"
+        android:layout_margin="10dp"
+        android:theme="@style/MyRadioButton"/>
+</RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/answer"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#009688"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="save"
+            android:id="@+id/savebtn"
+            android:background="@color/white"
+            android:textColor="#009688"/>
+    </LinearLayout>
+</LinearLayout>

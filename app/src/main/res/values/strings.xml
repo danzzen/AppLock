@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FingerprintLock</string>
+    <string name="enter_pattern">Enter Pattern</string>
+    <string name="retry">Retry</string>
+    <string name="confirm">Confirm</string>
+    <string name="what_is_your_favourite_book">What is your favourite book</string>
+    <string name="who_is_your_favourite_actor">Who is your favourite actor</string>
+    <string name="what_is_your_blood_group">What is your blood group</string>
+    <string name="what_is_your_vehicle_no">What is your vehicle no</string>
+    <string name="how_many_brothers_or_sisters_you_have">how many brothers or sisters you have</string>
+
+
+    <string-array name="questions_array">
+            <item>Select a question</item>
+            <item>What is your favourite book</item>
+            <item>Who is your favourite actor</item>
+            <item>What is your blood group</item>
+            <item>what is your vehicle no</item>
+            <item>how many brothers or sisters you have</item>
+        </string-array>
+</resources>
