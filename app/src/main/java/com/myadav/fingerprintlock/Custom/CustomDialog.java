@@ -1,13 +1,10 @@
 package com.myadav.fingerprintlock.Custom;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
-import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,7 +16,6 @@ import android.widget.Toast;
 
 import com.myadav.fingerprintlock.AllApplicationList;
 import com.myadav.fingerprintlock.AppLockConstants;
-import com.myadav.fingerprintlock.PasswordRecoverSetActivity;
 import com.myadav.fingerprintlock.R;
 
 import static android.content.Context.MODE_PRIVATE;
@@ -37,7 +33,8 @@ public class CustomDialog extends DialogFragment {
     SharedPreferences.Editor editor;
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
+    {
         View mView = inflater.inflate(R.layout.dialog_layout,container,false);
         getDialog().setTitle("Select a Security Question");
         radioGroup=(RadioGroup)mView.findViewById(R.id.radiogroup);
@@ -53,7 +50,6 @@ public class CustomDialog extends DialogFragment {
     View.OnClickListener DoneAction = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-//            Toast.makeText(getActivity(),"Test",Toast.LENGTH_LONG).show();
             if(!editText.getText().toString().isEmpty()){
                 if(radioGroup.getCheckedRadioButtonId()!=-1){
                     int id= radioGroup.getCheckedRadioButtonId();

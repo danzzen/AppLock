@@ -9,13 +9,4 @@
     <string name="what_is_your_vehicle_no">What is your vehicle no</string>
     <string name="how_many_brothers_or_sisters_you_have">how many brothers or sisters you have</string>
 
-
-    <string-array name="questions_array">
-            <item>Select a question</item>
-            <item>What is your favourite book</item>
-            <item>Who is your favourite actor</item>
-            <item>What is your blood group</item>
-            <item>what is your vehicle no</item>
-            <item>how many brothers or sisters you have</item>
-        </string-array>
 </resources>

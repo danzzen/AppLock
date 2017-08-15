@@ -74,7 +74,6 @@ public class PasswordSetActivity extends AppCompatActivity {
 
             @Override
             public void onFinish(String password) {
-//                Toast.makeText(PasswordSetActivity.this, password, Toast.LENGTH_SHORT).show();
                 if(isfirsttime){
                     passwordstr=password;
                     retry.setEnabled(true);
@@ -86,13 +85,10 @@ public class PasswordSetActivity extends AppCompatActivity {
                 else if(isSecondtime){
                     if(password.equals(passwordstr)){
                         confirm.setEnabled(true);
-                        confirm.setBackgroundColor(Color.parseColor("#1DE9B6"));
-                        Toast.makeText(PasswordSetActivity.this, "Success !", Toast.LENGTH_SHORT).show();
                     }
                     else {
                         isfirsttime=true;
                         confirm.setEnabled(false);
-                        confirm.setBackgroundColor(Color.parseColor("#EF6C00"));
                         isfirsttime=true;
                         isSecondtime=false;
                         message.setText("Draw Pattern again");
