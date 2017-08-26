@@ -71,7 +71,8 @@ public class CustomDialog extends DialogFragment {
                     getActivity().finish();
                 }
             }
-            else{
+            else
+            {
                 Toast.makeText(getActivity(), "Provide a Answer", Toast.LENGTH_SHORT).show();
             }
         }
