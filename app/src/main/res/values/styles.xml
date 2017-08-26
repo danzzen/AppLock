@@ -16,4 +16,14 @@
         <item name="android:textColor">@color/accent</item>
         <item name="android:textColorPrimary">@color/primary_dark</item>
     </style>
+
+        <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- customize the color palette -->
+            <item name="colorPrimary">#2196F3</item>
+            <item name="colorPrimaryDark">#BBDEFB</item>
+
+        </style>
+
+
+
 </resources>

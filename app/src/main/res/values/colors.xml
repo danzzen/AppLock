@@ -31,4 +31,5 @@
     <color name="fbutton_color_asbestos">#7f8c8d</color>
     <color name="fbutton_color_transparent">@android:color/transparent</color>
     <color name="tt">#009688</color>
+    <color name="colorPrimaryTaskBar">#2196F3</color>
 </resources>
