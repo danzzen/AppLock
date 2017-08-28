@@ -80,7 +80,7 @@ public class SplashActivity extends AppCompatActivity {
                     Intent i = new Intent(SplashActivity.this, PasswordActivity.class);
                     startActivity(i);
                 } else {
-                    Intent i = new Intent(SplashActivity.this, PasswordSetActivity.class);
+                    Intent i = new Intent(SplashActivity.this, viewpagerActivity.class);
                     startActivity(i);
                 }
                 finish();
