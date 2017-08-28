@@ -8,9 +8,9 @@ import com.myadav.fingerprintlock.R;
 
 public enum ModelObject {
 
-    RED(R.string.red, R.layout.activity_passwordset),
-    BLUE(R.string.blue, R.layout.activity_passwordset),
-    GREEN(R.string.finl, R.layout.activity_passwordset);
+    RED(R.string.red, R.layout.pagerpasslayout),
+    BLUE(R.string.blue, R.layout.pagerpasslayout),
+    GREEN(R.string.finl, R.layout.pagerpasslayout);
 
     private int mTitleResId;
     private int mLayoutResId;
