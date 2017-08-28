@@ -8,5 +8,13 @@
     <string name="what_is_your_blood_group">What is your blood group</string>
     <string name="what_is_your_vehicle_no">What is your vehicle no</string>
     <string name="how_many_brothers_or_sisters_you_have">how many brothers or sisters you have</string>
+    <string name="unlock_mode">Unlock Mode</string>
+    <string name="pattern">Pattern</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 
 </resources>

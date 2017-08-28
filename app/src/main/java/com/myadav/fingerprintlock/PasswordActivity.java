@@ -22,7 +22,7 @@ public class PasswordActivity extends AppCompatActivity {
     Lock9View lock9View;
     SharedPreferences sharedPreferences;
     Context context;
-    Button forgetPassword;
+//    Button forgetPassword;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ public class PasswordActivity extends AppCompatActivity {
         t.setScreenName(AppLockConstants.PASSWORD_CHECK_SCREEN);
         t.send(new HitBuilders.AppViewBuilder().build());
 
-        forgetPassword = (Button) findViewById(R.id.passfgtbtn);
+//        forgetPassword = (Button) findViewById(R.id.passfgtbtn);
         lock9View = (Lock9View) findViewById(R.id.lock_9_view);
         sharedPreferences = getSharedPreferences(AppLockConstants.MyPREFERENCES, MODE_PRIVATE);
         lock9View.setCallBack(new Lock9View.CallBack() {
@@ -42,7 +42,7 @@ public class PasswordActivity extends AppCompatActivity {
             public void onFinish(String password) {
                 if (sharedPreferences.getString(AppLockConstants.PASSWORD, "").matches(password)) {
                     Toast.makeText(getApplicationContext(), "Success : Password Match", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(PasswordActivity.this, LoadingActivity.class);
+                    Intent i = new Intent(PasswordActivity.this, AllApplicationList.class);
                     startActivity(i);
                     finish();
 //                    AppLockLogEvents.logEvents(AppLockConstants.PASSWORD_CHECK_SCREEN, "Correct Password", "correct_password", "");

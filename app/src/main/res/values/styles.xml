@@ -7,23 +7,39 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
     <style name="MyRadioButton" parent="Theme.AppCompat.Light">
         <item name="colorControlNormal">#009688</item>
         <item name="colorControlActivated">#00897B</item>
     </style>
+
     <style name="YourDialogStyle" parent="Theme.AppCompat.Light.Dialog">
 
         <item name="android:textColor">@color/accent</item>
         <item name="android:textColorPrimary">@color/primary_dark</item>
     </style>
 
-        <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-            <!-- customize the color palette -->
-            <item name="colorPrimary">#2196F3</item>
-            <item name="colorPrimaryDark">#BBDEFB</item>
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- customize the color palette -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#BBDEFB</item>
+    </style>
 
-        </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>
