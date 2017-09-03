@@ -33,7 +33,6 @@ public class PasswordSetActivity extends AppCompatActivity {
     boolean isfirsttime=true,isSecondtime=false;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
-    AlertDialog levelDialog;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

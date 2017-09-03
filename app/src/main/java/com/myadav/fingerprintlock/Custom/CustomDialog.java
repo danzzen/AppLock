@@ -13,17 +13,10 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
-
 import com.myadav.fingerprintlock.AllApplicationList;
 import com.myadav.fingerprintlock.AppLockConstants;
 import com.myadav.fingerprintlock.R;
-
 import static android.content.Context.MODE_PRIVATE;
-
-/**
- * Created by lenovo on 14-08-2017. Mohit yadav
- */
-
 public class CustomDialog extends DialogFragment {
     public CustomDialog(){}
     private RadioGroup radioGroup;

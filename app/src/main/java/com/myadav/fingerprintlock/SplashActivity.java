@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.widget.ImageView;
@@ -80,7 +81,7 @@ public class SplashActivity extends AppCompatActivity {
                     Intent i = new Intent(SplashActivity.this, PasswordActivity.class);
                     startActivity(i);
                 } else {
-                    Intent i = new Intent(SplashActivity.this, viewpagerActivity.class);
+                    Intent i = new Intent(SplashActivity.this, PasswordSetActivity.class);
                     startActivity(i);
                 }
                 finish();
