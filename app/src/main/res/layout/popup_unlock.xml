@@ -30,8 +30,7 @@
         app:lock9_nodeAreaExpand="24dp"
         app:lock9_nodeOnSrc="@drawable/lock_9_view_node_highlighted"
         app:lock9_nodeSize="30dp"
-        app:lock9_nodeSrc="@drawable/blank_circle_outline"
+        app:lock9_nodeSrc="@drawable/circleoutline"
         app:lock9_vibrateTime="20" />
-
 
 </LinearLayout>
