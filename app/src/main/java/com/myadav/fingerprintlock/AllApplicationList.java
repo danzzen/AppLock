@@ -25,9 +25,6 @@ import com.myadav.fingerprintlock.Data.AppData;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
-
-
 /**
  * Created by lenovo on 09-08-2017.Mohit yadav
  */

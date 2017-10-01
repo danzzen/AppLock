@@ -138,7 +138,7 @@ public class AppCheckServices extends Service {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
         View promptsView = layoutInflater.inflate(R.layout.popup_unlock, null);
         Lock9View lock9View = (Lock9View) promptsView.findViewById(R.id.lock_9_view);
-        Button forgetPassword = (Button) promptsView.findViewById(R.id.fgtbtn);
+//        Button forgetPassword = (Button) promptsView.findViewById(R.id.fgtbtn);
         lock9View.setCallBack(new Lock9View.CallBack() {
             @Override
             public void onFinish(String password) {
@@ -151,17 +151,6 @@ public class AppCheckServices extends Service {
                 }
             }
         });
-
-//        forgetPassword.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(AppCheckServices.this, PasswordRecoveryActivity.class);
-//                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                startActivity(i);
-//                dialog.dismiss();
-//                AppLockLogEvents.logEvents(AppLockConstants.PASSWORD_CHECK_SCREEN, "Forget Password", "forget_password", "");
-//            }
-//        });
 
         dialog = new Dialog(context, android.R.style.Theme_Black_NoTitleBar_Fullscreen);
         dialog.setCanceledOnTouchOutside(false);
